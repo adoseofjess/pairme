@@ -11,14 +11,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150603002456) do
-
-  create_table "availabilities", force: true do |t|
-    t.datetime "date"
-  end
+ActiveRecord::Schema.define(version: 20150603021430) do
 
   create_table "users", force: true do |t|
-    t.string "name"
+    t.string  "name"
+    t.boolean "available"
   end
 
 end

@@ -74,6 +74,8 @@ GEM
     multi_json (1.11.0)
     multi_xml (0.5.5)
     polyglot (0.3.5)
+    protected_attributes (1.0.8)
+      activemodel (>= 4.0.1, < 5.0)
     rack (1.5.3)
     rack-accept (0.4.5)
       rack (>= 0.4)
@@ -142,6 +144,7 @@ DEPENDENCIES
   grape
   jbuilder (~> 1.2)
   jquery-rails
+  protected_attributes
   rails (= 4.0.9)
   sass-rails (~> 4.0.2)
   sdoc

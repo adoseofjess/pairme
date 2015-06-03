@@ -15,7 +15,7 @@ module Pair
         requires :user_name, type: String, desc: "The slack user name of the person who wants coffee."
       end
       post do
-        # add this person as available for coffee
+        user = User.find_or_create_by(name: params.user_name)
       end
     end
   end
