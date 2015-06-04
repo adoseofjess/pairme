@@ -31,6 +31,9 @@ gem 'grape'
 
 gem 'protected_attributes'
 
+gem 'slack-post'
+
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
@@ -40,6 +43,7 @@ group :development, :test do
   gem 'pry'
   gem 'rspec-rails'
   gem 'approvals',                 github: 'remind101/approvals'
+  gem 'dotenv-rails'
 end
 
 # Use ActiveModel has_secure_password
