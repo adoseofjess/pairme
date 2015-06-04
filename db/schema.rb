@@ -11,11 +11,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150603021430) do
+ActiveRecord::Schema.define(version: 20150604031803) do
 
   create_table "users", force: true do |t|
     t.string  "name"
     t.boolean "available"
+    t.boolean "permanent"
   end
 
 end

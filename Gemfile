@@ -37,7 +37,9 @@ group :doc do
 end
 
 group :development, :test do
+  gem 'pry'
   gem 'rspec-rails'
+  gem 'approvals',                 github: 'remind101/approvals'
 end
 
 # Use ActiveModel has_secure_password
